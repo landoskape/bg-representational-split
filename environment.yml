@@ -1,0 +1,22 @@
+name: bg-representational-split
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - scipy
+  - matplotlib
+  - ipympl
+  - jupyterlab
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=12.1
+  - pip:
+    - tqdm
+    - git+https://github.com/dicarlolab/CORnet
+    - scikit-learn
